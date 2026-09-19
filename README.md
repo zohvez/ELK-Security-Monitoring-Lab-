@@ -20,28 +20,7 @@ Integrate Windows Defender
 Integrate Sysmon security events
 Develop custom YARA rules
 Visualize security events in Kibana
-Project Architecture
-            ┌─────────────────────────┐
-            │   Docker Desktop (Win)   │
-            │  ┌────────────┐          │
-            │  │Elasticsearch│◄────────┼── indexes: logs-*, metrics-*
-            │  └─────┬──────┘          │
-            │        │                 │
-            │  ┌─────▼──────┐          │
-            │  │   Kibana   │          │
-            │  └────────────┘          │
-            └───────────▲──────────────┘
-                         │
-                ┌────────┴────────┐
-                │   Fleet Server   │
-                └────────▲────────┘
-                         │
-          ┌──────────────┴──────────────┐
-          │                              │
- ┌────────▼────────┐          ┌──────────▼─────────┐
- │  Kali Linux Agent │          │  Windows Host       │
- │  (Elastic Agent)  │          │  Sysmon + YARA CLI  │
- └────────────────────┘         └─────────────────────┘
+       
  Skills Demonstrated
 SIEM Deployment
 Log Collection
