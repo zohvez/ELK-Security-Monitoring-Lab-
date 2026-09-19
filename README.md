@@ -1,4 +1,4 @@
-# ELK-Security-Monitoring-Lab-
+# ELK Security Monitoring Lab
 Overview
 This project demonstrates the deployment of an ELK Stack security monitoring environment on Windows with centralized log collection and endpoint monitoring.
 
