@@ -1,27 +1,4 @@
-# ELK Security Monitoring Lab
-Overview
-This project demonstrates the deployment of an ELK Stack security monitoring environment on Windows with centralized log collection and endpoint monitoring.
-
-Technologies
-Elasticsearch
-Kibana
-Fleet Server
-Elastic Agent
-Windows Defender
-Sysmon
-YARA
-Docker
-Features
-Deploy ELK Stack locally on Windows
-Configure Fleet Server
-Enroll Linux Elastic Agent
-Collect Linux system logs
-Integrate Windows Defender
-Integrate Sysmon security events
-Develop custom YARA rules
-Visualize security events in Kibana
-       
- Skills Demonstrated
+Skills Demonstrated
 SIEM Deployment
 Log Collection
 Fleet Management
@@ -65,4 +42,4 @@ Why this project
 
 Built to get hands-on with the exact stack SOC teams use day to day agent-based log collection, host telemetry via Sysmon, and rule-based detection via YARA rather than just reading about them. Next iteration closes the loop: raw detections → SIEM-visible alerts.
 
-Author: Parvez Mohammed — SOC Analyst
+Author: Munnaza Jamil — SOC Analyst Intern | GitHub | LinkedIn
